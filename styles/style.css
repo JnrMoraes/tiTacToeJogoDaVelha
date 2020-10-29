@@ -1,0 +1,54 @@
+body{
+    text-align: center;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+a:link 
+{ 
+ text-decoration:none; 
+ color: rgb(145, 241, 1);
+
+} 
+a:hover{
+    color: tomato;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    border: 2px solid honeydew;
+    display: inline-block;
+}
+.o{   
+    position: relative;
+}
+.o::after{
+    position: absolute;
+    content: "\26AB";
+    font-size: 56px;
+    line-height: 100px;
+    top: 0;
+    left: 5;
+    right: 0;
+    bottom: 0;
+}
+.x{   
+    position: relative;
+}
+.x::after{
+    position: absolute;
+    content: "\1F534";
+    font-size: 56px;
+    line-height: 100px;
+    top: 0;
+    left: 5;
+    right: 0;
+    bottom: 0;
+}
+.reloadButton{
+   border-top: 50px white solid;
+   color: greenyellow;
+}
